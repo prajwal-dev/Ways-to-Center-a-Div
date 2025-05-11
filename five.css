@@ -1,0 +1,21 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Using Flex and margin */
+body{
+    height: 100vh;
+    background-color: rgb(43, 71, 104);
+    display: flex;
+    place-items: center;
+    
+}
+.child{
+    background-color: rgb(34, 202, 232);
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    
+     
+}

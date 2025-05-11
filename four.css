@@ -1,0 +1,21 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Using grid-2 */
+body{
+    height: 100vh;
+    background-color: rgb(104, 43, 43);
+    display: grid;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+}
+.child{
+    background-color: rgb(232, 34, 34);
+    width: 400px;
+    height: 400px;
+    
+     
+}

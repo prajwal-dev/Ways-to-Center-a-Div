@@ -1,0 +1,21 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Using flexbox */
+body{
+    height: 100vh;
+    background-color: rgb(89, 43, 104);
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+}
+.child{
+    background-color: rgb(183, 34, 232);
+    width: 400px;
+    height: 400px;
+    
+     
+}
